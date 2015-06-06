@@ -1,0 +1,256 @@
+/*  
+Nome Tema: cm_001_Fly
+URI Tema: http://xoopsresources.altervista.org 
+Descrizione: Tema CSS per XOOPS .
+Versione: 1.0 | 10.03.2007
+Autore: Cristian Mulino 
+URI Autore: http://xoopsresources.altervista.org
+Mail Autore: cristian.mulino@fastwebnet.it
+*/
+
+
+/****** INIZIO TAG DELL' HTML ******/
+body { background-color: #cccccc; color: #121212; margin: 0px; padding: 0px; font-size: 12px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
+table { width: 100%; }
+table td { padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif, Tahoma, taipei; }
+div td { padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif, Tahoma, taipei; }
+div#content { text-align: left; }
+div#content td { }
+td { font-family: Verdana, Arial, Helvetica, sans-serif, Tahoma, taipei; font-size: 12px; }
+th { text-align: left; text-decoration: underline; text-transform: capitalize; }
+pre , code, blockquote { margin: 0px; padding: 0px; }
+img { border: 0px; }/****** Inizio Visualizzazione dei Links ******/
+a { color: #add229; text-decoration: none;}	
+a:hover {color: #ff9000; text-decoration: underline; }
+/****** Fine Visualizzazione dei Links ******/
+
+/****** Inizio Headings ******/
+h1 { margin: 0px; padding: 0; font-size: 180%; }
+h2 { margin: 0px; padding: 0; font-size: 150%; }
+h3 { margin: 0px; padding: 0; font-size: 130%; }
+h4 { margin: 0px; padding: 0; font-size: 110%; }
+h5 { margin: 0px; padding: 0; font-size: 90%; }
+h6 { margin: 0px; padding: 0; font-size: 75%; }
+/****** Fine Headings ******/
+
+ul, ol, dl { margin: 8px 0 5px 12px; padding: 0px; text-align: left; }
+ol li { margin: 4px 0 4px 18px; padding: 0px; list-style: decimal outside none; color: #333333; }
+ul li { margin-left: 10px; padding: 0; list-style: square outside; color: #333333; text-align: left; }
+
+/****** Inizio Form ******/
+form { margin: 0; padding: 0; }
+acronym, abbr { cursor: help; }
+textarea { background-color: #fdedf2; border: #CCCCCC 1px solid; color: #333333; font-family: verdana, arial, helvetica, sans-serif; font-size: 11px; width: 450px; height: 200px; overflow: auto; }
+button, select { border: 1px #CCCCCC solid; background: #FFFFFF; font-size: 11px; }
+input { border: 1px #999999 solid; font-size: 11px; }
+input[type=text], input[type=password] { border: 1px #C0C0C0 solid; }
+input[type=submit], input.formButton { border: 1px solid #666666; font-size: 11px; cursor: pointer; }
+input[type=reset], input.formButton { border: 1px solid #666666; background: #EAEAEA; font-size: 11px; cursor: pointer; }
+input[type=radio] { background: #FFFFFF; text-align: left; }
+input[type=checkbox] { margin: 0; padding: 0; text-align: right; }
+
+#searchbox { text-align:right; float: right; }
+#bottonecerca { background: url("images/search-button-a.png") no-repeat; width: 69px; height: 21px; border: 0px solid #cccccc; cursor: pointer; }
+#bottonecancella { background: url("images/search-button-b.png") no-repeat; width: 69px; height: 21px; border: 0px solid #cccccc; cursor: pointer; }
+/****** Fine Form ******/
+
+/* Hover and focus effects - Works only on Firefox/NS..*/
+input:hover, textarea:hover { border: 1px solid #9F9F9F; color: #000000 !important; background-color: #ffffff; }
+input[type=text]:focus, input[type=password]:focus, textarea:focus{ border: 1px solid #9F9F9F; background-color: #ffffff; font-size: 11px; }
+/****** FINE TAG DELL' HTML ******/
+
+/****** INIZIO LAYOUT DELL' HEADER ******/
+#header { margin: 0 auto; height: 205px; color: #ffffff; background: url("images/bg-header.png") repeat-x; }
+#headerdx {height: 205px; color: #ffffff; background: url("images/bg-headerdx.png") no-repeat; background-position: right; }
+/****** Inizio del MenuNav orrizzontale dell' header ******/
+#headernav { height: 35px; line-height: 30px; color: #ffffff; clear: both; text-align: center; position: relative; width: 180px; }
+#headernav a { color: #2d73b9; text-decoration: none; font-size: 12px; overflow: hidden; }
+#headernav a:hover { color: #00aeed; text-decoration: none; font-size: 12px; overflow: hidden; }
+/****** Inizio Links normali ******/#headernav .navi1 a{background: url("images/bg-menu-aa.png") no-repeat ; width: 60px;height: 35px; float: right; right: 0px; }#headernav .navi2 a{background: url("images/bg-menu-aa.png") no-repeat ; width: 60px;height: 35px; float: right; right: 120px; }#headernav .navi3 a{background: url("images/bg-menu-aa.png") no-repeat ; width: 60px;height: 35px; float: right; right: 240px; }
+/****** Fine Links normali ******/
+/****** Inizio Links hover ******/#headernav .navi1 a:hover {background: url("images/bg-menu-oo.png") no-repeat ; width: 60px;height: 35px; float: right; right: 0px;}#headernav .navi2 a:hover {background: url("images/bg-menu-oo.png") no-repeat ; width: 60px;height: 35px; float: right; right: 120px;}#headernav .navi3 a:hover {background: url("images/bg-menu-oo.png") no-repeat ; width: 60px;height: 35px; float: right; right: 240px;}
+/****** Fine Links hover ******/
+/****** Inizio Links attivi ******/#headernav .navi1 a:visited {background: url("images/bg-menu-nn.png") no-repeat ; width: 60px;height: 35px; float: right; right: 0px;}
+#headernav .navi2 a:hover {background: url("images/bg-menu-oo.png") no-repeat ; width: 60px;height: 35px; float: right; right: 120px;}#headernav .navi3 a:hover {background: url("images/bg-menu-oo.png") no-repeat ; width: 60px;height: 35px; float: right; right: 240px;}/****** Inizio Links attivi ******/
+
+/****** Fine del MenuNav orrizzontale dell' header ******/
+
+/****** Inizio del Titolo del sito nell' header ******/
+#headertitle { height: 100px; background: url("images/logo.png") no-repeat center top; color: #ffffff; text-align: left; }
+
+/****** Inizio CSS per i dati Utenti  ******/
+.obUname { font-size: 16px; color: #cccccc; font-weight: bold; }
+.obUnameinfo { font-size: 12px; color: #cccccc; margin-right: 12px; }
+#usern { float: left; line-height: 15px; text-align: left; }
+/****** Fine CSS per i dati Utenti  ******/
+
+/****** Fine del Titolo del sito nell' header ******/
+
+/****** Inizio del Menu orrizzontale dell' header ******/#headermenu { float: left; height: 70px; line-height: 50px; background: url("images/bg-menu.png") repeat-x bottom; clear: both; text-align: center; position: relative; width: 100%; }	#headermenu a { color: #2d73b9; text-decoration: none; font-size: 13px; overflow: hidden; }
+#headermenu a:hover { color: #00aeed; text-decoration: none; font-size: 13px; overflow: hidden; }
+/****** Inizio Links normali ******/#headermenu .navi1 a{background: url("images/bg-menu-a.png") no-repeat ; width: 120px;height: 70px; float: left; left: 0px; }#headermenu .navi2 a{background: url("images/bg-menu-a.png") no-repeat ; width: 120px;height: 70px; float: left; left: 120px; }#headermenu .navi3 a{background: url("images/bg-menu-a.png") no-repeat ; width: 120px;height: 70px; float: left; left: 240px; }#headermenu .navi4 a{background: url("images/bg-menu-a.png") no-repeat ; width: 120px;height: 70px; float: left; left: 360px; }#headermenu .navi5 a{background: url("images/bg-menu-a.png") no-repeat ; width: 120px;height: 70px; float: left; left: 480px; }#headermenu .navi6 a{background: url("images/bg-menu-a.png") no-repeat ; width: 120px;height: 70px; float: left; left: 600px; }#headermenu .navi7 a{background: url("images/bg-menu-a.png") no-repeat ; width: 120px;height: 70px; float: left; left: 720px; }
+/****** Fine Links normali ******/
+/****** Inizio Links hover ******/#headermenu .navi1 a:hover {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 0px; }#headermenu .navi2 a:hover {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 120px; }#headermenu .navi3 a:hover {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 240px; }#headermenu .navi4 a:hover {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 360px; }#headermenu .navi5 a:hover {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 480px; }#headermenu .navi6 a:hover {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 600px; }#headermenu .navi7 a:hover {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 720px; }
+/****** Fine Links hover ******/
+/****** Inizio Links attivi ******/#headermenu .navi1 a:visited {background: url("images/bg-menu-n.png") no-repeat ; width: 120px;height: 70px; float: left; left: 0px; }
+#headermenu .navi2 a:visited {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 120px; }
+#headermenu .navi3 a:visited {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 240px; }
+#headermenu .navi4 a:visited {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 360px; }
+#headermenu .navi5 a:visited {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 480px; }
+#headermenu .navi6 a:visited {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 600px; }
+#headermenu .navi7 a:visited {background: url("images/bg-menu-o.png") no-repeat ; width: 120px;height: 70px; float: left; left: 720px; }/****** Inizio Links attivi ******/
+
+/****** Fine del Menu orrizzontale dell' header ******/
+/****** FINE LAYOUT DELL' HEADER ******/
+
+/****** INIZIO LAYOUT DEL FOOTER ******/
+#footer { margin: 0 auto; height: 40px; line-height: 40px; background: url("images/bg-foot.png") repeat-x center bottom; color: #000000; clear: both; font-size: 11px; text-align: center; position: relative; }
+#footer a { color: #2d73b9; text-decoration: none; font-size: 12px; overflow: hidden; }
+#footer a:hover { color: #00aeed; text-decoration: none; font-size: 12px; overflow: hidden; }
+#subfooter { text-align: center; color: #000000; font-size: 12px; font-family:  Arial,Verdana, Helvetica, sans-serif; }
+#subfooter a { color: #2d73b9; text-decoration: none; font-size: 12px; overflow: hidden; }
+#subfooter a:hover { color: #00aeed; text-decoration: none; font-size: 12px; overflow: hidden; }
+/****** FINE LAYOUT DEL FOOTER ******/
+
+/****** INIZIO GENERAL PURPOSE ID/CLASSES ******/
+.clear { clear: both; height: 0; }
+.hide { display: none; }
+.hidden { position: absolute; top: -1000em; }
+/****** FINE GENERAL PURPOSE ID/CLASSES ******/
+
+/****** INIZIO REQUESTED/DISPLAYED BY XOOPS ******/
+/****** Inizio Main Classes for table's sections visualization/discrimination ******/
+.outer {  }
+.head { padding: 4px 4px 4px 4px; font-weight: bold; }
+.even { padding: 5px; }
+.evenPost{ padding: 5px; }
+.odd { padding: 5px; }
+.foot { padding: 5px; font-weight: bold; }
+tr.even td { padding: 5px; }
+tr.odd td {padding: 5px; }
+tr.head td { padding: 4px 2px 4px 2px;  font-weight: bold; color: #333333; }
+/****** Fine Main Classes for table's sections visualization/discrimination ******/
+/****** FINE REQUESTED/DISPLAYED BY XOOPS ******/
+
+/****** INIZIO LAYOUT DELLE COLONNE ******/
+#container { width: 80%; padding: 0px; margin: 0 auto; background-color: #ffffff; text-align: left; color: #121212;}
+
+/****** Inizio colonne Centrali Centrali ******/
+#centercolumn { border-left: 2px solid #cccccc; border-right: 2px solid #cccccc; margin-right: 2px; margin-left: 2px; margin-top: 2px; background-color: #ffffff; }
+#centercolumn th { vertical-align: middle; }
+#centerCcolumn { width: 100%;  margin:10px 3px; }
+#bottomCcolumn { width: 100%;  margin:10px 3px; }
+#centerCcolumn .blockTitle {vertical-align: middle; margin: 2px; padding: 2px; font-size: 13px; font-weight: bold; border-bottom: 2px solid #cccccc; text-align: left; }
+#bottomCcolumn .blockTitle {vertical-align: middle; margin: 2px; padding: 2px; font-size: 13px; font-weight: bold; border-bottom: 2px solid #cccccc; text-align: left; }
+#centerCcolumn .blockContent {margin: 2px; padding: 2px; }
+#bottomCcolumn .blockContent {margin: 2px; padding: 2px; }
+/****** Fine colonne Centrali Centrali ******/
+
+/****** Inizio colonne Centrali Sinistra e Destra ******/
+#centerLcolumn { width: 48%; padding: 0px 3px 0px 0px; margin:10px 3px; }
+#bottomLcolumn { width: 48%; padding: 0px 3px 0px 0px; margin:10px 3px; }
+#centerRcolumn { width: 48%; padding: 0px 3px 0px 0px; margin:10px 3px; }
+#bottomRcolumn { width: 48%; padding: 0px 3px 0px 0px; margin:10px 3px; }
+#centerLcolumn .blockTitle { vertical-align: middle; margin: 2px; padding: 2px; font-size: 13px; font-weight: bold; border-bottom: 2px solid #cccccc; }
+#bottomLcolumn .blockTitle { vertical-align: middle; margin: 2px; padding: 2px; font-size: 13px; font-weight: bold; border-bottom: 2px solid #cccccc; }
+#centerRcolumn .blockTitle { vertical-align: middle; margin: 2px; padding: 2px; font-size: 13px; font-weight: bold; border-bottom: 2px solid #cccccc; }
+#bottomRcolumn .blockTitle { vertical-align: middle; margin: 2px; padding: 2px; font-size: 13px; font-weight: bold; border-bottom: 2px solid #cccccc; }
+#centerLcolumn .blockContent { margin: 2px; padding: 2px; }
+#centerRcolumn .blockContent {margin: 2px; padding: 2px; }
+#bottomLcolumn .blockContent {margin: 2px; padding: 2px; }
+#bottomRcolumn .blockContent {margin: 2px; padding: 2px; }
+/****** Fine colonne Centrali Sinistra e Destra ******/
+
+/****** Inizio contenuto dei Moduli ******/
+#content { text-align: left; margin: 0 auto; padding: 10px; }
+#xoopsbanner { text-align: center; margin: 0 auto; }
+/****** Fine contenuto dei Moduli ******/
+
+/****** Inizio colonna Sinistra ******/
+#leftcolumn { width: 170px; margin-right: 2px; margin-left: 2px; margin-top: 2px; background-color: #ffffff; }
+#leftcolumn th { vertical-align: middle; }
+#leftcolumn .blockTitle { vertical-align: middle; margin: 2px; padding: 2px; font-size: 13px; font-weight: bold; text-align: left; border-bottom: 2px solid #cccccc; background-image: url(images/line-left.png); background-repeat: repeat-y; color: #ffffff; }
+#leftcolumn .blockContent { margin: 2px; padding: 2px; }
+/****** Fine colonna Sinistra ******/
+
+/****** Inizio colonna Destra ******/
+#rightcolumn { width: 260px; margin-right: 2px; margin-left: 2px; margin-top: 2px; background-color: #ffffff; }
+#rightcolumn th { vertical-align: middle; }
+#rightcolumn .blockTitle { vertical-align: middle; margin: 2px; padding: 2px; font-size: 13px; font-weight: bold; text-align: left; border-bottom: 2px solid #cccccc; }
+#rightcolumn .blockContent { margin: 2px; padding: 2px; }
+/******  Fine colonna Destra ******/
+
+/****** FINE LAYOUT DELLE COLONNE ******/
+
+/****** Inizio specifiche per il menù di navigazione ******/
+#mainmenu a  { color: #C7377D; background:  url(images/menu1.gif); background-repeat: no-repeat; height: 25px; text-align:left; display: block; line-height: 25px; margin-top: 1px; margin-bottom: 1px; padding-left: 3px; }
+#mainmenu a:hover { color: #C7377D; background-image:  url(images/menu2.gif); background-repeat: no-repeat; height: 25px; text-align:left; display: block; line-height: 25px; padding-left: 3px; }
+#mainmenu a.menuTop { }
+#mainmenu a.menuMain { }
+#mainmenu a.menuSub { color: #C7377D; background:  url(images/menu1.gif); background-repeat: no-repeat; height: 25px; text-align:left; display: block; line-height: 25px; margin-top: 1px; margin-bottom: 1px; padding-left: 3px; }
+
+#usermenu a { color: #C7377D; background:  url(images/menu1.gif); background-repeat: no-repeat; height: 25px; text-align:left; display: block; line-height: 25px; margin-top: 1px; margin-bottom: 1px; padding-left: 3px;}
+#usermenu a:hover{ color: #C7377D; background-image:  url(images/menu2.gif); background-repeat: no-repeat; height: 25px; text-align:left; display: block; line-height: 25px; padding-left: 3px; }
+#usermenu a.menuTop { }
+#usermenu a.highlight { }
+/****** Fine specifiche per il menù di navigazione ******/
+
+/****** Inizio Altre Classi per Xoops ******/
+.item {}
+.itemHead { padding: 2px; font-weight: bold; text-align: left;}
+.itemInfo {text-align: right; padding: 3px;}
+.itemTitle a { font-size: 130%; font-weight: bold; font-variant: small-caps; }
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px; text-align: left}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot { text-align: right; padding: 3px; background-position: top; }
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+/****** Fine Altre Classi per Xoops ******/
+
+/****** Inizio Classi per i messaggi speciali ******/
+div.errorMsg { background-color: #d4ecfb; text-align: center; border-top: 1px solid #cccccc; border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; border-bottom: 1px solid #cccccc; font-weight: bold; padding: 10px;}div.confirmMsg { background-color: #eaf3da; color: #136C99; text-align: center; border-top: 1px solid #cccccc; border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; border-bottom: 1px solid #cccccc; font-weight: bold; padding: 10px;}div.resultMsg { background-color : #ffffff; color: #333333; text-align: center; border-top: 1px solid #cccccc; border-left: 1px solid #cccccc; font-weight: bold; border-right: 1px solid #cccccc; border-bottom: 1px solid #cccccc; padding: 10px;}
+div.xoopsCode { background-color: #FFF2D0; border: 1px dotted #cccccc; width: 500px; max-height: 300px; margin: 5px; overflow: auto; font-family: "Courier New", Courier, monospace; font-size: 11px;font-weight: normal; padding: 5px; }div.xoopsQuote { background-color: #e4fde6; border: 1px dotted #cccccc; font-family: Courier New,Courier,monospace; padding: 5px; }
+
+.comTitle { font-weight: bold; margin-bottom: 2px; }
+.comTitle  a { color: #eaeaea; }
+.comText { padding: 2px; }
+.comUserStat { font-size: 10px; font-weight:bold; border: 1px solid #cccccc; margin: 2px; padding: 2px; }
+.comUserStatCaption { font-weight: normal; }
+.comUserStatus { margin-left: 2px; margin-top: 10px; font-weight:bold; font-size: 10px; }
+.comUserRank { margin: 2px; }
+.comUserRankText { font-size: 10px;font-weight:bold; }
+.comUserRankImg { border: 0; }
+.comUserName { color:#eaeaea; }
+.comUserImg { margin: 2px; }
+.comDate { font-weight: normal; font-style: italic; font-size: smaller; }
+.comDateCaption { font-weight: bold; font-style: normal; }
+/****** Fine Classi per i messaggi speciali ******/
+
+
+/****** Inizio CSS PERSONALIZZATI ******/
+
+/****** Inizio CSS per il blocco Xoopsresources ******/
+.hoverbox { cursor: default; list-style: none; width: 422px; margin: 0 auto; }
+.hoverbox a { cursor: default; }
+.hoverbox a .preview { display: none; }
+.hoverbox a:hover .preview { display: block; position: absolute; top: -33px; left: -45px; z-index: 1; }
+.hoverbox img { background: #000; border-color: #aaa #ccc #ddd #bbb; border-style: solid; border-width: 1px; color: inherit; padding: 2px; vertical-align: top; width: 114px; height: 69px; }
+.hoverbox .preview { background: #eee; border-color: #ddd #bbb #aaa #ccc; border-style: solid; border-width: 1px; color: inherit;	display: inline; float: left; margin: 3px;	padding: 5px;	position: relative; width: 229px;	 height: 138px; }
+/****** Fine CSS per il blocco Xoopsresources ******/
+
+/****** Inizio CSS per il blocco menucommunity ******/
+#communitymenu a { color: #C7377D; background:  url(images/menu1.gif); background-repeat: no-repeat; height: 25px; text-align:left; display: block; line-height: 25px; margin-top: 1px; margin-bottom: 1px;}
+#communitymenu a:hover{ color: #C7377D; background-image:  url(images/menu2.gif); background-repeat: no-repeat; height: 25px; text-align:left; display: block; line-height: 25px; }
+#communitymenu a.menuVista { padding-left: 3px; }
+#communitymenu a.menuMain { padding-left: 3px; }
+#communitymenu a.menuSub { padding-left: 9px; }
+/****** Fine CSS per il blocco menucommunity ******/
+
+/****** FINE CSS PERSONALIZZATI ******/
+
+
+/****** Questo CSS fà parte dei temi rivolti a XOOPS prodotti da Cristian Mulino <a href="http://xoopsresources.altervista.org">XOOPS RESOURCES</a> ******/
